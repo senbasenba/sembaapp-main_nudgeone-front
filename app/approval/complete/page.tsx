@@ -20,7 +20,7 @@ export default function CompletePage() {
           <h1 className="text-2xl font-semibold">予約が完了しました</h1>
           <p className="text-gray-600">
             ご予約ありがとうございます。<br />
-            予約内容の確認メールをお送りしましたのでご確認ください。
+            予約内容の確認のLineをお送りしましたのでご確認ください。
           </p>
           
           <div className="pt-6">

@@ -1,7 +1,7 @@
 'use client'
 
-import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
@@ -20,9 +20,9 @@ export default function ApprovalPage() {
           {/* 支払い方法選択 */}
           <div>
             <p className="mb-4">支払い方法を選択してください</p>
-            <RadioGroup
-              defaultValue="bank"
-              onValueChange={setPaymentMethod}
+            <RadioGroup 
+              value={paymentMethod} 
+              onValueChange={setPaymentMethod} 
               className="space-y-3"
             >
               <div className="flex items-center space-x-2">
